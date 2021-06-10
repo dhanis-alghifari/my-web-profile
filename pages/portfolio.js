@@ -1,6 +1,6 @@
 import Navbar from "../components/navbar";
 import Head from "next/head";
-import Image from 'next/image'
+import Image from "next/image";
 
 function Portfolio() {
   return (
@@ -14,15 +14,17 @@ function Portfolio() {
         <div className="container">
           <div className="text-wrapper w-full">
             <h1 className="title">Portfolio</h1>
-            <p className="description">Some of the projects I've done built with React JS</p>
+            <p className="description">
+              Some of the projects I've done built with React JS
+            </p>
             <div className="portfolio-wrapper">
               <div className="portfolio-item">
-                <Image src="/portal-kmk-pen.png" className="portfolio-image" />
+                <Image src="/portal-kmk-pen.png" width={500} height={500} />
                 <h4 className="portfolio-name">Portal KMK PEN </h4>
                 <div className="portfolio-category">Web Dev</div>
               </div>
               <div className="portfolio-item">
-                <Image src="/agree.png" className="portfolio-image" />
+                <Image src="/agree.png" width={500} height={500} />
                 <h4 className="portfolio-name">Agree Dashboard</h4>
                 <div className="portfolio-category">Web Dev</div>
               </div>
