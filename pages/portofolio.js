@@ -14,7 +14,7 @@ function Portofolio() {
         <div className="container">
           <div className="text-wrapper w-full">
             <h1 className="title">Portofolio</h1>
-            <p className="description">Some My Projects Built With React JS</p>
+            <p className="description">Some of the projects I've done built with React JS</p>
             <div className="portfolio-wrapper">
               <div className="portfolio-item">
                 <Image src="/portal-kmk-pen.png" className="portfolio-image" />
