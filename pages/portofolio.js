@@ -2,18 +2,18 @@ import Navbar from "../components/navbar";
 import Head from "next/head";
 import Image from 'next/image'
 
-function Portofolio() {
+function Portfolio() {
   return (
     <div>
       <Head>
-        <title>Portofolio</title>
+        <title>Portfolio</title>
       </Head>
 
       <Navbar />
       <section className="hero">
         <div className="container">
           <div className="text-wrapper w-full">
-            <h1 className="title">Portofolio</h1>
+            <h1 className="title">Portfolio</h1>
             <p className="description">Some of the projects I've done built with React JS</p>
             <div className="portfolio-wrapper">
               <div className="portfolio-item">
@@ -34,4 +34,4 @@ function Portofolio() {
   );
 }
 
-export default Portofolio;
+export default Portfolio;
